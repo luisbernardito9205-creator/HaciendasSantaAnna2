@@ -1,0 +1,215 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Haciendas Santa Anna | Terrenos en Chiapas</title><meta name="description" content="Terrenos desde $137,500 MXN. Apartado desde $10,000, enganche de $35,000 y crédito a 24 meses."><meta name="theme-color" content="#14233a"><meta property="og:title" content="Haciendas Santa Anna | Terrenos en Chiapas"><meta property="og:image" content="img/og.jpg"><style>:root {
+  --navy: #14233a;
+  --navy-2: #0e1a2c;
+  --green: #2f7d3b;
+  --gold: #f2b01e;
+  --gold-dark: #d99a0b;
+  --cream: #f6f3ea;
+  --ink: #1d2733;
+  --muted: #5b6673;
+  --line: #e1ddd0;
+  --radius: 16px;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 110px; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  color: var(--ink);
+  background: #fff;
+  line-height: 1.55;
+  padding-bottom: 72px;
+}
+img, video { max-width: 100%; height: auto; display: block; }
+a { color: inherit; }
+h1, h2, h3 { line-height: 1.15; margin: 0 0 .5em; color: var(--navy); }
+h1 { font-size: clamp(1.9rem, 7vw, 3.4rem); letter-spacing: -.01em; }
+h2 { font-size: clamp(1.5rem, 5vw, 2.3rem); }
+h3 { font-size: 1.2rem; }
+p { margin: 0 0 1em; }
+
+.wrap { width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+.wrap--narrow { max-width: 720px; }
+.section { padding: 56px 0; }
+.section--cream { background: var(--cream); }
+.section--navy { background: var(--navy); color: #fff; }
+.section--navy h2, .section--navy h3 { color: #fff; }
+.kicker { text-transform: uppercase; letter-spacing: .12em; font-size: .78rem; font-weight: 700; color: var(--green); margin-bottom: .6em; }
+.kicker--light { color: var(--gold); }
+.lead { font-size: 1.1rem; color: var(--muted); }
+.fine { font-size: .82rem; color: var(--muted); }
+.fine--light { color: #c4cddb; }
+.inline-icon { display: inline; vertical-align: -3px; color: var(--green); }
+
+/* Header */
+.header { position: sticky; top: 0; z-index: 50; background: #fff; border-bottom: 1px solid var(--line); }
+.header__bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 8px; padding-bottom: 8px; }
+.header__logos { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.header__sep { width: 1px; height: 32px; background: var(--line); }
+.logo--hsa { height: 44px; width: auto; }
+.logo--kaht { height: 40px; width: auto; }
+.logo--footer { height: 56px; width: auto; background: #fff; border-radius: 10px; padding: 6px 10px; }
+.nav { border-top: 1px solid var(--line); background: var(--navy); }
+.nav__list { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; }
+.nav__list a { color: #fff; text-decoration: none; font-size: .88rem; padding: 10px 12px; white-space: nowrap; }
+.nav__list a:hover { color: var(--gold); }
+.header__cta { display: none; }
+
+/* Buttons */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  border: 0; border-radius: 999px; padding: 13px 22px; font: inherit; font-weight: 800;
+  text-decoration: none; cursor: pointer; text-align: center; line-height: 1.2;
+}
+.btn--primary { background: var(--gold); color: var(--navy-2); box-shadow: 0 6px 16px rgba(242,176,30,.35); }
+.btn--primary:hover { background: var(--gold-dark); }
+.btn--ghost { background: transparent; color: var(--navy); border: 2px solid var(--navy); }
+.btn--ghost-light { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,.7); }
+.btn--sm { padding: 9px 16px; font-size: .9rem; }
+.btn--lg { padding: 16px 26px; font-size: 1rem; }
+.btn--full { width: 100%; }
+.btn:focus-visible, .option:focus-visible, .linkbtn:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visible {
+  outline: 3px solid var(--green); outline-offset: 2px;
+}
+.linkbtn { background: none; border: 0; color: var(--green); font: inherit; font-weight: 700; cursor: pointer; padding: 10px 0; display: inline-flex; align-items: center; gap: 6px; text-decoration: underline; }
+.actions { display: flex; flex-direction: column; gap: 12px; margin: 20px 0 12px; }
+
+/* Hero */
+.hero { position: relative; color: #fff; min-height: 640px; display: flex; align-items: flex-end; overflow: hidden; }
+.hero__img { object-fit: cover; }
+.hero__shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(14,26,44,.55) 0%, rgba(14,26,44,.85) 100%); }
+.hero__content { position: relative; padding-top: 48px; padding-bottom: 40px; }
+.hero h1 { color: #fff; max-width: 780px; }
+.hero__sub { font-size: 1.1rem; max-width: 600px; color: #e8edf5; }
+.hero__fine { font-size: .78rem; color: #c4cddb; max-width: 600px; }
+.chips { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 0; margin: 20px 0; }
+.chips li { background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.28); border-radius: 12px; padding: 10px 12px; font-size: .9rem; backdrop-filter: blur(4px); }
+.chips strong { display: block; color: var(--gold); font-size: 1.02rem; }
+
+/* Cards */
+.card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 8px 24px rgba(20,35,58,.07); }
+.zones { display: grid; gap: 22px; margin-top: 24px; }
+.zone { overflow: hidden; display: flex; flex-direction: column; }
+.zone__photos { display: grid; }
+.zone__photos--two { grid-template-columns: 1fr 1fr; }
+.zone__img { width: 100%; height: 240px; object-fit: cover; }
+.zone__body { padding: 20px; display: flex; flex-direction: column; flex: 1; }
+.zone__price { font-size: 1rem; margin-bottom: .4em; }
+.zone__price strong { font-size: 2rem; color: var(--green); }
+.zone__terms { list-style: none; padding: 12px 14px; margin: 0 0 12px; background: var(--cream); border-radius: 10px; }
+.zone__surface { font-weight: 700; color: var(--navy); margin-bottom: .4em; }
+.zone__body .btn { margin-top: auto; }
+
+/* Payments */
+.pay { display: grid; gap: 14px; margin: 24px 0; }
+.pay__card { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.2); border-radius: var(--radius); padding: 20px; }
+.pay__card p { margin: 0; color: #d6deea; }
+.pay__deposit { display: flex; align-items: center; gap: 8px; font-size: 1.1rem; color: var(--gold); }
+
+/* Benefits */
+.benefits { display: grid; gap: 16px; margin-top: 24px; }
+.benefit { padding: 22px; }
+.benefit svg { color: var(--green); margin-bottom: 8px; }
+.benefit p { margin: 0; color: var(--muted); }
+
+/* Gallery / video / map */
+.video { max-width: 360px; margin: 24px auto; border-radius: var(--radius); overflow: hidden; background: #000; box-shadow: 0 10px 30px rgba(0,0,0,.2); }
+.video video { width: 100%; }
+.gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.gallery__img { width: 100%; height: 190px; object-fit: cover; border-radius: 12px; }
+.map { max-width: 420px; margin: 20px 0 8px; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
+
+/* Quiz / form */
+.quiz, .form { padding: 22px; margin-top: 20px; }
+.progress { height: 8px; background: var(--line); border-radius: 99px; overflow: hidden; margin-bottom: 12px; }
+.progress span { display: block; height: 100%; background: var(--green); transition: width .25s; }
+.quiz__count { font-size: .85rem; color: var(--muted); margin-bottom: .3em; }
+.quiz__q { font-size: 1.3rem; }
+.options { display: grid; gap: 10px; margin-bottom: 8px; }
+.option { text-align: left; background: #fff; border: 2px solid var(--line); border-radius: 12px; padding: 14px 16px; font: inherit; font-weight: 600; cursor: pointer; color: var(--ink); }
+.option:hover, .option--on { border-color: var(--green); background: #eef7ef; }
+form label { display: block; font-weight: 700; font-size: .9rem; margin-bottom: 14px; color: var(--navy); }
+input[type='text'], input[type='tel'], select, textarea {
+  display: block; width: 100%; margin-top: 6px; padding: 13px 12px; font: inherit; font-weight: 400;
+  border: 2px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink);
+}
+.check { display: flex !important; gap: 10px; align-items: flex-start; font-weight: 400 !important; }
+.check input { width: 20px; height: 20px; margin-top: 2px; flex: none; }
+.error { color: #b3261e; font-weight: 700; }
+
+/* Footer / sticky */
+.footer { background: var(--navy-2); color: #d6deea; padding: 40px 0; font-size: .92rem; }
+.footer a { color: var(--gold); }
+.footer__logos { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 16px; }
+.footer p { margin: 0 0 6px; }
+.sticky {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; display: flex; align-items: center; justify-content: center; gap: 8px;
+  background: var(--gold); color: var(--navy-2); font-weight: 800; text-decoration: none; padding: 16px 12px; font-size: .95rem;
+  box-shadow: 0 -4px 16px rgba(0,0,0,.2);
+}
+
+/* Legal */
+.legal { padding: 32px 0 64px; }
+.legal h2 { font-size: 1.2rem; margin-top: 1.6em; }
+.legal li { margin-bottom: .4em; }
+.notice { background: #fff6dc; border: 2px solid var(--gold); border-radius: 12px; padding: 14px 16px; }
+
+@media (min-width: 700px) {
+  body { padding-bottom: 0; }
+  .sticky { display: none; }
+  .header__cta { display: inline-flex; }
+  .logo--hsa { height: 54px; }
+  .logo--kaht { height: 48px; }
+  .actions { flex-direction: row; }
+  .chips { grid-template-columns: repeat(4, auto); justify-content: start; }
+  .zones { grid-template-columns: repeat(3, 1fr); }
+  .zone__img { height: 260px; }
+  .pay, .benefits { grid-template-columns: repeat(2, 1fr); }
+  .benefits { grid-template-columns: repeat(3, 1fr); }
+  .gallery { grid-template-columns: repeat(3, 1fr); }
+  .gallery__img { height: 240px; }
+  .hero { min-height: 680px; }
+}
+</style></head><body><link rel="preload" as="image" href="img/logo-hsa.webp"/><link rel="preload" as="image" href="img/logo-kaht.webp"/><link rel="preload" as="image" href="img/hero.webp" imageSizes="100vw"/><link rel="preload" as="image" href="img/zona-premium.webp" imageSizes="(max-width: 700px) 90vw, 360px"/><link rel="preload" as="image" href="img/zona-intermedia-2.webp" imageSizes="(max-width: 700px) 90vw, 360px"/><link rel="preload" as="image" href="img/zona-grandes.webp" imageSizes="(max-width: 700px) 90vw, 360px"/><header class="header"><div class="wrap header__bar"><a href="#inicio" class="header__logos" aria-label="Haciendas Santa Anna, inicio"><img src="img/logo-hsa.webp" alt="Haciendas Santa Anna" width="720" height="261" class="logo logo--hsa"/><span class="header__sep" aria-hidden="true"></span><img src="img/logo-kaht.webp" alt="KAHT Desarrollos Inmobiliarios" width="720" height="534" class="logo logo--kaht"/></a><a class="btn btn--primary btn--sm header__cta" href="https://wa.me/529621797743?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20Haciendas%20Santa%20Anna%20y%20quisiera%20agendar%20una%20visita.%20%C2%BFMe%20pueden%20dar%20informaci%C3%B3n%3F" target="_blank" rel="noopener noreferrer">WhatsApp</a></div><nav class="nav" aria-label="Secciones"><div class="wrap nav__list"><a href="#zonas">Zonas</a><a href="#pagos">Pagos</a><a href="#beneficios">Beneficios</a><a href="#galeria">Galería</a><a href="#ubicacion">Ubicación</a><a href="#quiz">Cuestionario</a><a href="#contacto">Contacto</a></div></nav></header><main><section id="inicio" class="hero"><img src="img/hero.webp" alt="" class="hero__img" sizes="100vw" style="position:absolute;inset:0;width:100%;height:100%"/><div class="hero__shade"></div><div class="wrap hero__content"><p class="kicker kicker--light">Terrenos en Chiapas</p><h1>ENCUENTRA TU TERRENO EN HACIENDAS SANTA ANNA</h1><p class="hero__sub">Conoce nuestras zonas y encuentra una alternativa para comenzar tu proyecto de inversión.</p><ul class="chips"><li><strong>Terrenos desde $137,500</strong> MXN</li><li><strong>Apartado desde $10,000</strong> MXN</li><li><strong>Enganche de $35,000</strong> MXN</li><li><strong>Crédito a 24 meses</strong></li></ul><div class="actions"><a class="btn btn--primary btn--lg" href="https://wa.me/529621797743?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20Haciendas%20Santa%20Anna%20y%20quisiera%20agendar%20una%20visita.%20%C2%BFMe%20pueden%20dar%20informaci%C3%B3n%3F" target="_blank" rel="noopener noreferrer"><svg data-i="MessageCircle" width="20" height="20"></svg> AGENDA TU VISITA POR WHATSAPP</a><a class="btn btn--ghost-light btn--lg" href="#zonas">Ver las zonas</a></div><p class="hero__fine">Precios desde, de contado, sujetos a disponibilidad y a las condiciones aplicables. Las superficies son aproximadas y pueden variar por terreno.</p></div></section><section id="zonas" class="section"><div class="wrap"><p class="kicker">Conoce las tres zonas</p><h2>Elige la zona que va con tu proyecto</h2><div class="zones"><article class="card zone"><div class="zone__photos"><img src="img/zona-premium.webp" alt="Terreno en zona Premium de Haciendas Santa Anna" width="825" height="1100" class="zone__img" sizes="(max-width: 700px) 90vw, 360px"/></div><div class="zone__body"><h3>Premium</h3><p class="zone__price"><span>Desde</span> <strong>$150,000</strong> <span>MXN</span></p><ul class="zone__terms"><li>Enganche: <strong>$35,000 MXN</strong></li><li>Apartado desde: <strong>$10,000 MXN</strong></li></ul><p class="zone__surface">Aprox. 250 y 259 m²</p><p>La zona más cercana a la entrada del desarrollo.</p><a class="btn btn--primary btn--full" href="https://wa.me/529621797743?text=Hola%2C%20me%20interesa%20la%20zona%20Premium%20de%20Haciendas%20Santa%20Anna.%20Quisiera%20recibir%20informaci%C3%B3n%20y%20conocer%20disponibilidad." target="_blank" rel="noopener noreferrer">Solicitar información</a></div></article><article class="card zone"><div class="zone__photos zone__photos--two"><img src="img/hero.webp" alt="Terreno en zona Intermedia de Haciendas Santa Anna" width="1600" height="1200" class="zone__img" sizes="(max-width: 700px) 90vw, 360px"/><img src="img/zona-intermedia-2.webp" alt="Otra vista de un terreno en zona Intermedia" width="825" height="1100" class="zone__img" sizes="(max-width: 700px) 90vw, 360px"/></div><div class="zone__body"><h3>Intermedia</h3><p class="zone__price"><span>Desde</span> <strong>$137,500</strong> <span>MXN</span></p><ul class="zone__terms"><li>Enganche: <strong>$35,000 MXN</strong></li><li>Apartado desde: <strong>$10,000 MXN</strong></li></ul><p class="zone__surface">Aprox. 223 a 324 m²</p><p>Una alternativa para comenzar tu proyecto con una inversión inicial accesible.</p><a class="btn btn--primary btn--full" href="https://wa.me/529621797743?text=Hola%2C%20me%20interesa%20la%20zona%20Intermedia%20de%20Haciendas%20Santa%20Anna.%20Quisiera%20recibir%20informaci%C3%B3n%20y%20conocer%20disponibilidad." target="_blank" rel="noopener noreferrer">Solicitar información</a></div></article><article class="card zone"><div class="zone__photos"><img src="img/zona-grandes.webp" alt="Terreno en zona Grandes Proyectos de Haciendas Santa Anna" width="1100" height="825" class="zone__img" sizes="(max-width: 700px) 90vw, 360px"/></div><div class="zone__body"><h3>Grandes Proyectos</h3><p class="zone__price"><span>Desde</span> <strong>$290,000</strong> <span>MXN</span></p><ul class="zone__terms"><li>Enganche: <strong>$35,000 MXN</strong></li><li>Apartado desde: <strong>$10,000 MXN</strong></li></ul><p class="zone__surface">Desde aprox. 270 m² hasta aprox. 1,000 m²</p><p>Terrenos de mayor superficie para proyectos más grandes. Todo proyecto está sujeto a factibilidad, normatividad y permisos.</p><a class="btn btn--primary btn--full" href="https://wa.me/529621797743?text=Hola%2C%20me%20interesa%20la%20zona%20Grandes%20Proyectos%20de%20Haciendas%20Santa%20Anna.%20Quisiera%20recibir%20informaci%C3%B3n%20y%20conocer%20disponibilidad." target="_blank" rel="noopener noreferrer">Solicitar información</a></div></article></div><p class="fine">Precios desde, de contado, sujetos a disponibilidad y a las condiciones aplicables. Las superficies son aproximadas y pueden variar por terreno.</p></div></section><section id="pagos" class="section section--navy"><div class="wrap wrap--narrow"><p class="kicker kicker--light">Facilidades de pago</p><h2>Elige la modalidad de pago que mejor se adapte a ti</h2><div class="pay"><div class="pay__card"><h3>Contado</h3><p>Paga el precio del terreno de una sola vez.</p></div><div class="pay__card"><h3>Crédito a 24 meses</h3><p>Enganche de $35,000 MXN y el resto a 24 meses.</p></div></div><p class="pay__deposit"><svg data-i="Check" width="20" height="20"></svg> Aparta tu terreno desde <strong>$10,000 MXN</strong></p><a class="btn btn--primary btn--lg" href="https://wa.me/529621797743?text=Hola%2C%20quisiera%20una%20cotizaci%C3%B3n%20personalizada%20de%20un%20terreno%20en%20Haciendas%20Santa%20Anna." target="_blank" rel="noopener noreferrer">Solicitar cotización personalizada</a><p class="fine fine--light">Las condiciones aplicables se confirman con el asesor según el terreno seleccionado.</p></div></section><section id="beneficios" class="section"><div class="wrap"><p class="kicker">Beneficios del desarrollo</p><h2>Lo que incluye Haciendas Santa Anna</h2><div class="benefits"><div class="card benefit"><svg data-i="FileText" width="30" height="30"></svg><h3>Escrituras públicas</h3><p>Propiedad con escrituras públicas.</p></div><div class="card benefit"><svg data-i="Zap" width="30" height="30"></svg><h3>Energía eléctrica</h3><p>El desarrollo cuenta con energía eléctrica.</p></div><div class="card benefit"><svg data-i="Lightbulb" width="30" height="30"></svg><h3>Alumbrado público</h3><p>Cuenta con alumbrado público.</p></div></div></div></section><section id="galeria" class="section section--cream"><div class="wrap"><p class="kicker">Galería y video</p><h2>Conoce el terreno</h2><div class="video"><video controls="" playsInline="" preload="none" poster="img/recorrido-poster.webp" aria-label="Recorrido real por Haciendas Santa Anna"><source src="video/recorrido.mp4" type="video/mp4"/>Tu navegador no puede reproducir este video.</video></div><div class="gallery"><img src="img/hero.webp" alt="Terreno de Haciendas Santa Anna con camino de terracería" width="1600" height="1200" class="gallery__img" sizes="(max-width: 700px) 50vw, 300px" loading="lazy"/><img src="img/zona-premium.webp" alt="Zona Premium de Haciendas Santa Anna" width="825" height="1100" class="gallery__img" sizes="(max-width: 700px) 50vw, 300px" loading="lazy"/><img src="img/zona-grandes.webp" alt="Zona Grandes Proyectos de Haciendas Santa Anna" width="1100" height="825" class="gallery__img" sizes="(max-width: 700px) 50vw, 300px" loading="lazy"/><img src="img/terreno-1.webp" alt="Vista del terreno de Haciendas Santa Anna" width="1100" height="825" class="gallery__img" sizes="(max-width: 700px) 50vw, 300px" loading="lazy"/><img src="img/zona-intermedia-2.webp" alt="Zona Intermedia de Haciendas Santa Anna" width="825" height="1100" class="gallery__img" sizes="(max-width: 700px) 50vw, 300px" loading="lazy"/><img src="img/terreno-2.webp" alt="Terreno de Haciendas Santa Anna" width="825" height="1100" class="gallery__img" sizes="(max-width: 700px) 50vw, 300px" loading="lazy"/></div></div></section><section id="ubicacion" class="section"><div class="wrap wrap--narrow"><p class="kicker">Ubicación</p><h2>Una ubicación que vale la pena conocer</h2><p class="lead"><svg data-i="MapPin" width="18" height="18" class="inline-icon"></svg> Cantón El Sacrificio, municipio de Tuxtla Chico, Chiapas.</p><div class="map"><img src="img/mapa-ruta.webp" alt="Captura de Google Maps con la ruta hacia Haciendas Santa Anna" width="753" height="900" sizes="(max-width: 700px) 90vw, 420px" loading="lazy"/></div><p class="fine">Captura de Google Maps; el tiempo de traslado varía según el punto de salida.</p><a class="btn btn--primary btn--lg" href="https://maps.app.goo.gl/8Gp5g3YGUSXigcgL8" target="_blank" rel="noopener noreferrer">Abrir ubicación en Google Maps</a></div></section><section id="quiz" class="section section--cream"><div class="wrap wrap--narrow">
+<p class="kicker">Te ayudamos a elegir</p><h2>¿Qué zona va con tu proyecto?</h2>
+<p class="lead">Responde 4 preguntas rápidas y te orientamos hacia una zona.</p>
+<div class="card quiz" id="quizbox" aria-live="polite"></div></div></section>
+<section id="contacto" class="section"><div class="wrap wrap--narrow">
+<p class="kicker">Hablemos de tu terreno</p><h2>Solicita información</h2>
+<p class="lead">Llena el formulario y continúa la conversación por WhatsApp con tu mensaje ya preparado.</p>
+<div class="card form" id="formbox"></div></div></section></main><footer class="footer"><div class="wrap footer__inner"><div class="footer__logos"><img src="img/logo-hsa.webp" alt="Haciendas Santa Anna" width="720" height="261" class="logo logo--footer" loading="lazy"/><img src="img/logo-kaht.webp" alt="KAHT Desarrollos Inmobiliarios" width="720" height="534" class="logo logo--footer" loading="lazy"/></div><p>Un desarrollo de DESARROLLOS INMOBILIARIOS KAHT S.A. DE C.V.</p><p>Cantón El Sacrificio, municipio de Tuxtla Chico, Chiapas</p><p>Teléfono y WhatsApp: <a href="tel:+529621797743">962 179 7743</a></p><p><a href="aviso.html">Aviso de Privacidad</a></p></div></footer><a class="sticky" href="https://wa.me/529621797743?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20Haciendas%20Santa%20Anna%20y%20quisiera%20agendar%20una%20visita.%20%C2%BFMe%20pueden%20dar%20informaci%C3%B3n%3F" target="_blank" rel="noopener noreferrer"><svg data-i="MessageCircle" width="20" height="20"></svg> AGENDA TU VISITA POR WHATSAPP</a><script>
+const D={"QUESTIONS":[{"id":"budget","title":"¿Cuál es tu presupuesto aproximado para el terreno?","options":[{"value":"b1","label":"$137,500 a $149,999","points":20},{"value":"b2","label":"$150,000 a $289,999","points":20},{"value":"b3","label":"$290,000 o más","points":20},{"value":"b0","label":"Aún no lo defino","points":0}]},{"id":"payment","title":"¿Cómo te gustaría pagar?","options":[{"value":"contado","label":"De contado","points":30},{"value":"credito","label":"Crédito a 24 meses","points":20},{"value":"opciones","label":"Quiero conocer las opciones","points":10}]},{"id":"interest","title":"¿Te gustaría conocer el desarrollo?","options":[{"value":"si","label":"Sí, quiero conocerlo","points":15},{"value":"info","label":"Primero quiero más información","points":5},{"value":"no","label":"Por ahora solo estoy viendo","points":0}]},{"id":"visit","title":"¿Quieres agendar una visita?","options":[{"value":"si","label":"Sí, quiero agendar una visita","points":35},{"value":"luego","label":"Tal vez más adelante","points":15},{"value":"no","label":"Por ahora no","points":0}]}],"ZONES":[{"id":"premium","name":"Premium","from":150000,"surface":"Aprox. 250 y 259 m²","description":"La zona más cercana a la entrada del desarrollo.","photos":[{"src":"img/zona-premium.webp","alt":"Terreno en zona Premium de Haciendas Santa Anna","width":825,"height":1100}]},{"id":"intermedia","name":"Intermedia","from":137500,"surface":"Aprox. 223 a 324 m²","description":"Una alternativa para comenzar tu proyecto con una inversión inicial accesible.","photos":[{"src":"img/hero.webp","alt":"Terreno en zona Intermedia de Haciendas Santa Anna","width":1600,"height":1200},{"src":"img/zona-intermedia-2.webp","alt":"Otra vista de un terreno en zona Intermedia","width":825,"height":1100}]},{"id":"grandes","name":"Grandes Proyectos","from":290000,"surface":"Desde aprox. 270 m² hasta aprox. 1,000 m²","description":"Terrenos de mayor superficie para proyectos más grandes. Todo proyecto está sujeto a factibilidad, normatividad y permisos.","photos":[{"src":"img/zona-grandes.webp","alt":"Terreno en zona Grandes Proyectos de Haciendas Santa Anna","width":1100,"height":825}]}],"PRICING":{"deposit":10000,"downPayment":35000,"creditMonths":24,"lowestFrom":137500},"CONTACT":{"waNumber":"529621797743","phoneDisplay":"962 179 7743"}};
+const money=n=>'$'+String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,',');
+const wa=m=>'https://wa.me/'+D.CONTACT.waNumber+'?text='+encodeURIComponent(m);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const Q=D.QUESTIONS;let step=0,ans={},prefill=null;
+const label=(q,v)=>{const x=Q.find(a=>a.id===q);const o=x&&x.options.find(o=>o.value===v);return o?o.label:''};
+function score(a){let s=0;Q.forEach(q=>{const o=q.options.find(o=>o.value===a[q.id]);if(o)s+=o.points});return s>=70?'Lead caliente':s>=40?'Lead tibio':'Lead inicial'}
+function zoneOf(a){const id=a.budget==='b3'?'grandes':a.budget==='b2'?'premium':'intermedia';return D.ZONES.find(z=>z.id===id)}
+function quizMsg(a,z){return ['Hola, contesté el cuestionario de Haciendas Santa Anna y me sugirieron la zona '+z+'.','Presupuesto: '+label('budget',a.budget),'Forma de pago: '+label('payment',a.payment),'Conocer el desarrollo: '+label('interest',a.interest),'Visita: '+label('visit',a.visit),'Nivel de interés (orientativo): '+score(a),'Tengo entendido que el apartado es desde '+money(D.PRICING.deposit)+' y el enganche de '+money(D.PRICING.downPayment)+'. Quisiera conocer disponibilidad.'].join('\n')}
+function renderQuiz(){const b=document.getElementById('quizbox');
+ if(step<Q.length){const q=Q[step];
+  b.innerHTML='<div class="progress"><span style="width:'+(step/Q.length*100)+'%"></span></div><p class="quiz__count">Pregunta '+(step+1)+' de '+Q.length+'</p><h3 class="quiz__q">'+esc(q.title)+'</h3><div class="options">'+q.options.map(o=>'<button type="button" class="option" data-v="'+o.value+'">'+esc(o.label)+'</button>').join('')+'</div>'+(step>0?'<button type="button" class="linkbtn" id="qback">← Regresar</button>':'');
+  b.querySelectorAll('.option').forEach(el=>el.onclick=()=>{ans[q.id]=el.dataset.v;step++;if(step>=Q.length){const z=zoneOf(ans);prefill={zone:z.name,budget:label('budget',ans.budget),payment:label('payment',ans.payment),visit:ans.visit==='si'?'Sí, quiero agendar una visita':'No por ahora'};applyPrefill()}renderQuiz()});
+  const bk=document.getElementById('qback');if(bk)bk.onclick=()=>{step--;renderQuiz()};
+ }else{const z=zoneOf(ans);
+  b.innerHTML='<div class="result"><p class="kicker">Tu resultado</p><h3 class="quiz__q">Te sugerimos conocer la zona '+esc(z.name)+'</h3><p>Desde '+money(z.from)+' de contado · '+esc(z.surface)+'. Es una orientación según tu presupuesto, sujeta a disponibilidad; un asesor te confirmará las opciones. Apartado desde '+money(D.PRICING.deposit)+'.</p><div class="actions"><a class="btn btn--primary" target="_blank" rel="noopener noreferrer" href="'+wa(quizMsg(ans,z.name))+'">Continuar por WhatsApp</a><a class="btn btn--ghost" href="#contacto">Completar mi solicitud</a></div><button type="button" class="linkbtn" id="qreset">Volver a empezar</button></div>';
+  document.getElementById('qreset').onclick=()=>{ans={};step=0;renderQuiz()}}}
+const VIS=['Sí, quiero agendar una visita','No por ahora'];
+const opts=(arr,ph)=>(ph?'<option value="">'+ph+'</option>':'')+arr.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
+function renderForm(){document.getElementById('formbox').innerHTML='<form id="f" novalidate><label>Nombre completo<input type="text" id="fn" autocomplete="name"></label><label>Teléfono o WhatsApp<input type="tel" id="fp" inputmode="tel" placeholder="10 dígitos"></label><label>Zona de interés<select id="fz">'+opts(D.ZONES.map(z=>z.name),'Selecciona una zona')+'</select></label><label>Presupuesto aproximado<select id="fb">'+opts(Q[0].options.map(o=>o.label),'Selecciona un rango')+'</select></label><label>Forma de pago<select id="fy">'+opts(Q[1].options.map(o=>o.label),'Selecciona una opción')+'</select></label><label>Solicitud de visita<select id="fv">'+opts(VIS)+'</select></label><label>Mensaje (opcional)<textarea id="fm" rows="3" maxlength="300"></textarea></label><label class="check"><input type="checkbox" id="fc"><span>He leído y acepto el <a href="aviso.html" target="_blank" rel="noopener noreferrer">Aviso de Privacidad</a> y autorizo el uso de mis datos para recibir información de Haciendas Santa Anna.</span></label><p class="error" id="fe" role="alert" hidden></p><button type="submit" class="btn btn--primary btn--full">Continuar por WhatsApp</button><p class="fine">Esta página no guarda tus datos: se envían únicamente en el mensaje de WhatsApp que tú decides mandar.</p></form>';
+ document.getElementById('f').onsubmit=submit;applyPrefill()}
+function applyPrefill(){if(!prefill||!document.getElementById('fz'))return;fz.value=prefill.zone;fb.value=prefill.budget;fy.value=prefill.payment;fv.value=prefill.visit}
+function submit(e){e.preventDefault();const err=m=>{fe.textContent=m;fe.hidden=false};const d=fp.value.replace(/\D/g,'');
+ if(fn.value.trim().length<3)return err('Escribe tu nombre completo.');
+ if(d.length<10||d.length>13)return err('Escribe tu teléfono o WhatsApp con 10 dígitos.');
+ if(!fz.value)return err('Elige una zona de interés.');if(!fb.value)return err('Elige tu presupuesto aproximado.');if(!fy.value)return err('Elige tu forma de pago.');
+ if(!fc.checked)return err('Debes aceptar el Aviso de Privacidad para continuar.');
+ fe.hidden=true;
+ const L=['Hola, quisiera información de Haciendas Santa Anna.','Nombre: '+fn.value.trim(),'Teléfono: '+d.slice(-10),'Zona de interés: '+fz.value,'Presupuesto: '+fb.value,'Forma de pago: '+fy.value,'Visita: '+fv.value];
+ if(fm.value.trim())L.push('Mensaje: '+fm.value.trim());
+ if(Object.keys(ans).length)L.push('Nivel de interés (orientativo): '+score(ans));
+ const url=wa(L.join('\n'));window.open(url,'_blank','noopener,noreferrer');
+ document.getElementById('formbox').innerHTML='<div class="result"><h3 class="quiz__q">¡Listo, '+esc(fn.value.trim().split(' ')[0])+'!</h3><p>Si WhatsApp no se abrió, toca el botón para enviar tu mensaje a un asesor.</p><a class="btn btn--primary" target="_blank" rel="noopener noreferrer" href="'+url+'">Continuar por WhatsApp</a></div>'}
+renderQuiz();renderForm();
+</script></body></html>
